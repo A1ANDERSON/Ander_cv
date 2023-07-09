@@ -199,7 +199,8 @@ body {
   padding: 20px;
 }
 
-.skills .container-skills img {
+.skills .container-skills img,
+.contact img {
   margin-bottom: 5px;
   width: 45px;
 }
@@ -209,6 +210,37 @@ body {
   font-weight: 400;
   text-align: center;
 }
+
+/* ZONA DE CONTACTO */
+
+.contact {
+  background-color: black;
+  color: white;
+}
+
+.contact ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.contact ul a {
+  margin: 0px 10px;
+}
+
+.contact .title {
+  font-size: 2em;
+}
+
+.footer_copy {
+  background-color: black;
+}
+
+.footer_copy p {
+  color: white;
+}
+
+/* -------------------------------------------------------------------- */
 
 @media (max-width: 771px) {
   .navbar {
@@ -348,5 +380,11 @@ body {
 
   .welcome img {
     margin: 0;
+  }
+}
+
+@media (max-width: 397px) {
+  .container-skills .elemento {
+    padding: 10px;
   }
 }
