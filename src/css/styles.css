@@ -214,18 +214,19 @@ body {
 /* ZONA DE CONTACTO */
 
 .contact {
-  background-color: black;
-  color: white;
+  color: black;
+  margin: 0 5%;
 }
 
 .contact ul {
   display: flex;
   list-style: none;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .contact ul a {
-  margin: 0px 10px;
+  padding: 25px;
 }
 
 .contact .title {
@@ -238,14 +239,16 @@ body {
 
 .footer_copy p {
   color: white;
+  text-align: center;
+  font-size: 13px;
 }
 
 /* -------------------------------------------------------------------- */
 
 @media (max-width: 771px) {
-  .navbar {
+  /* .navbar {
     opacity: 0.95;
-  }
+  } */
 
   .navbar-container input[type="checkbox"],
   .navbar-container .hamburger-lines {
@@ -380,6 +383,15 @@ body {
 
   .welcome img {
     margin: 0;
+  }
+
+  .contact ul a {
+    padding: 15px;
+    transition: 1s;
+  }
+
+  .contact p {
+    text-align: center;
   }
 }
 
